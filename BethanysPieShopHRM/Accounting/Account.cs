@@ -6,16 +6,5 @@ using System.Threading.Tasks;
 
 namespace BethanysPieShopHRM.Accounting
 {
-    //public record Account
-    //{
-    //    private string accountName;
-
-    //    public string AccountNumber
-    //    {
-    //        get { return accountName; }
-    //        set { accountName = value; }
-    //    }
-    //}
-
     public record Account(string AccountNumber);
 }
